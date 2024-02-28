@@ -1,29 +1,136 @@
+<!-- ----------------- -->
+<!-- The Life Cycle of Fashion Project Description
+<!-- ----------------- -->
+
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Life Cycle of Fashion</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css" />
+    <link rel="stylesheet" href="style.css" />
+
 </head>
+
 <body>
     <header>
-        <!-- Your header content goes here -->
+        <!-- Navigation Menu on Desktop -->
+        <nav id="desktop-nav">
+            <div class="logo">The Life Cycle of Fashion: Case Study</div>
+            <div>
+                <ul class="nav-links">
+                    <li><a href="index.html#index">Home</a></li>
+                    <li><a href="index.html#experience">Experience</a></li>
+                    <li><a href="index.html#projects">Projects</a></li>
+                    <li><a href="index.html#contact">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!-- Navigation Menu on Mobile, and Smaller Screens -->
+        <nav id="hamburger-nav">
+            <div class="hamburger-menu">
+                <div class="hamburger-icon" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="menu-links">
+                    <li><a href="index.html#index">Home</a></li>
+                    <li><a href="index.html#experience">Experience</a></li>
+                    <li><a href="index.html#projects">Projects</a></li>
+                    <li><a href="index.html#contact">Contact Me</a></li>
+                </div>
+            </div>
+        </nav>
     </header>
 
-    <nav>
-        <!-- Your navigation menu goes here -->
-    </nav>
-
     <main>
-        <!-- Your main content goes here -->
+        <!-- Introduction and Overview for Fashion Project  -->
+        <section id="fashion-overview">
+            <h1 class="title">Overview</h1>
+            <!-- First Image and Text for Fashion Overview -->
+            <div class="image-with-text">
+                <img src="./Assets/fashion/fashion-overview.gif" alt="A gif plays. The upper half is scrolling down the website The Life Cycle of Fashion. 
+                A static clip art image of three customers logos stays as the lower half." class="project-phase-image" />
+                <div class="project-text-container">
+                    <h2>Summmary and Motivations</h2>
+                    <p>The Life Cycle of Fashion offers an interactive exploration of environmental impacts resulting
+                        from clothing
+                        through its "life cycle": production, maintenance, and disposal. The site serves as an
+                        educational platform
+                        featuring interactive, explorable visualizations. <br><br> <strong>Identified
+                            stakeholders</strong> were end users and viewers of the page,
+                        whose engagement and satisfaction are important for achieving the end goals and outcomes.
+                        <br><br> <Strong>Key motivations</Strong> were to
+                        increase understanding among shoppers about how their clothing consumption affects our
+                        environment, and empower
+                        them to make educated decisions about their wardrobes.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Process for Fashion Project -->
+            <div class="image-with-text">
+                <img src="./Assets/fashion/fashion-process.gif" alt="A gif plays. A graph of the earth shows countries in 
+                varying shades of green. A computer cursor hovers over countries. A text box displays the name of
+                the country and a number as the mouse cursor hovers. The cursor clicks and drags a slider representing the years passing, and the countries change 
+                to other shades of green." class="project-phase-image" />
+                <div class="project-text-container">
+                    <h2>Development Process</h2>
+                    <p>In the planning stages it was decided to choose a set of <strong>design approaches</strong>
+                        to focus efforts on the defined stakeholders, the end user and general public.
+                    </p>
+                    <ul>
+                        <br>
+                        <li>User-Centered Design</li>
+                        <li>Incorporate Data Visualization Best Practices</li>
+                        <li>Add Interactivity</li>
+                        <br>
+                    </ul>
+                    <p>By following these design approaches the website includes a variety of interactive
+                        visualizations.
+                        Appropriate color schemes include contrast and minimize biases present with colors such as red
+                        and yellow.
+                        Interactivity includes zooming, tooltip implementation, and draggable sliders. 
+                        <br> <br> <strong>Tools: Javascript, D3.js, Observable, Vega-Lite, Canva, JSON</strong>
+                     </p>
+                
+            </div>
+            </div>
+
+
+         <!-- Outcome for Fashion Project -->
+         <div class="image-with-text">
+            <img src="./Assets/fashion/fashion-outcome.gif" alt="A gif plays. A cursor hovers over a graph, and a text box displays the data at that point.
+            The cursor moves, hovering over a pie chart. More text boxes display with the data at that point." class="project-phase-image" />
+            <div class="project-text-container">
+                <h2>Outcome</h2>
+                <p>
+                The components functioned as expected and added great visual detail to the site. Getting an entire globe functioning was quite difficult,
+                and finding a functional color scheme was also difficult. I wanted to choose one reminiscent of the environtment and water,
+                but would also allow for easily discerning between different components of the graph. The objectives were met and user feedback was excellent. 
+                <br><br>
+                Future areas of improvement include moving the visualizations to their own distinct webpages and expounding upon the details already there.
+                Expansions also could potentially include information specific to different clothing items and accessories, such as purses, belts, and shoes.
+                </p>            
+            </div>
+        </div>
+        </section>
     </main>
 
-    <footer>
-        <!-- Your footer content goes here -->
-    </footer>
 
-    <!-- Add your JavaScript link here -->
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="index.html#index">Home</a></li>
+                    <li><a href="#fashion-overview">Return to Top</a></li>
+                </ul>
+            </div>
+        </nav>
+    </footer>
     <script src="script.js"></script>
 </body>
 </html>

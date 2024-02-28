@@ -201,6 +201,7 @@ section {
   margin-bottom: 1rem;
 }
 
+/* Used for Headers in Sections: Bold, Centered Text */
 .title {
   font-size: 3rem;
   text-align: center;
@@ -357,7 +358,6 @@ section#experience {}
 }
 
 
-
 .article-container {
   display: flex;
   text-align: initial;
@@ -458,3 +458,51 @@ footer {
 footer p {
   text-align: center;
 }
+
+/* PROJECT PAGE */
+
+/* Side by Side Image and Text Container */
+.image-with-text {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.project-phase-image {
+  border-radius: 2rem;
+  max-width: 100%; /* Limit maximum width to 100% of the container */
+  max-height: 80vh; /* Limit maximum height to 80% of the viewport height */
+  min-width: 50vh;
+  min-height: auto;
+}
+
+.project-text-container {
+  flex: 1; /* Allow the text container to grow to fill available space */
+  margin-left: 20px; /* Adjust the spacing between image and text */
+}
+
+/* Project Body Text Container Styling */
+.project-text-container p,
+.project-text-container li {
+  font-size: 1.10rem;
+  line-height: 1.5;
+  color:black;
+}
+
+.project-text-container li {
+  font-size: 1.10rem;
+  line-height: 1.5;
+  color:black;
+  margin-left:30px;
+}
+
+/* Header for Project Text Container */
+.project-text-container h2 {
+  margin-top: 20px;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+
