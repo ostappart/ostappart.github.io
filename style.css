@@ -472,9 +472,16 @@ footer p {
   border-radius: 2rem;
   max-width: 100%;
   max-height: 80vh;
-  min-width: 50vh;
-  min-height: auto;
+  /* Set default aspect ratio */
+  min-width: 50vh; /* 2:1 aspect ratio for Pixel 2 */
+  min-height: 25vh; /* Corresponds to a 2:1 aspect ratio */
 }
+
+.square-image {
+  /* For square images */
+  padding-top: 100%; /* 1:1 aspect ratio */
+}
+
 
 .project-text-container {
   flex: 1;
