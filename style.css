@@ -161,6 +161,8 @@ section {
   min-height: fit-content;
 }
 
+
+
 .section-container {
   display: flex;
 }
@@ -290,9 +292,6 @@ section {
 }
 
 
-flex-direction: row;
-
-
 .about-pic {
   border-radius: 2rem;
 }
@@ -305,7 +304,7 @@ flex-direction: row;
 
 .details-container {
   padding: 1.5rem;
-  flex: 1;
+  flex: auto;
   background: white;
   border-radius: 2rem;
   border: rgb(53, 53, 53) 0.1rem solid;
@@ -322,6 +321,7 @@ flex-direction: row;
   height: 400px;
   width: 400px;
   margin: auto 0;
+  
 }
 
 /* EXPERIENCE SECTION */
@@ -329,8 +329,6 @@ flex-direction: row;
 #experience {
   position: relative;
 }
-
-section#experience {}
 
 .experience-sub-title {
   color: rgb(85, 85, 85);
@@ -351,8 +349,9 @@ section#experience {}
 
 .experience-details-container {
   display: flex;
-  justify-content: left;
+  justify-content: center;
   flex-direction: column;
+  
 }
 
 
@@ -363,7 +362,7 @@ section#experience {}
   flex-direction: row;
   gap: 2.5rem;
   justify-content: flex-start;
-  align-items: stretch;
+  align-items: normal;
   align-content: flex-start;
 }
 
@@ -384,6 +383,8 @@ article .icon {
 #projects {
   position: relative;
 }
+
+
 
 .color-container {
   border-color: rgb(163, 163, 163);
@@ -473,8 +474,8 @@ footer p {
   max-width: 100%;
   max-height: 80vh;
   /* Set default aspect ratio */
-  min-width: 50vh; /* 2:1 aspect ratio for Pixel 2 */
-  min-height: 25vh; /* Corresponds to a 2:1 aspect ratio */
+  min-width: 38vh; /* 2:1 aspect ratio for Pixel 2 */
+  min-height: 18vh; /* Corresponds to a 2:1 aspect ratio */
 }
 
 .square-image {
