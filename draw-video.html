@@ -1,0 +1,72 @@
+<!-- ----------------- -->
+<!-- Android Drawing App Video Demo
+<!-- ----------------- -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Android Drawing Application Demo</title>
+    <link rel="stylesheet" href="mediaqueries.css" />
+    <link rel="stylesheet" href="style.css" />
+
+</head>
+<body>
+    <header>
+        <!-- Navigation Menu on Desktop -->
+        <nav id="desktop-nav">
+            <div class="logo">Draw: Video Demo</div>
+            <div>
+                <ul class="nav-links">
+                    <li><a href="index.html#index">Home</a></li>
+                    <li><a href="index.html#experience">Experience</a></li>
+                    <li><a href="index.html#projects">Projects</a></li>
+                    <li><a href="index.html#contact">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!-- Navigation Menu on Mobile, and Smaller Screens -->
+        <nav id="hamburger-nav">
+            <div class="hamburger-menu">
+                <div class="hamburger-icon" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="menu-links">
+                    <li><a href="index.html#index">Home</a></li>
+                    <li><a href="index.html#experience">Experience</a></li>
+                    <li><a href="index.html#projects">Projects</a></li>
+                    <li><a href="index.html#contact">Contact Me</a></li>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <!-- Video Demonstration of the Android Drawing App -->
+        <section id="video">
+            <h1 class="title">Video Demonstration</h1>
+            <!-- Video -->
+            <div class="video-container">
+                <video controls>
+                    <source src="./assets/draw/draw-video.m4v" type="video/mp4" class="video">
+                </video>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="index.html#index">Home</a></li>
+                    <li><a href="draw.html#draw">Project Overview</a></li>
+                </ul>
+            </div>
+        </nav>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

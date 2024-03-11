@@ -2,13 +2,6 @@
   #profile {
     margin-bottom: 6rem;
   }
-  .about-containers {
-    flex-wrap: wrap;
-  }
-  #contact,
-  #projects {
-    height: fit-content;
-  }
 }
 
 @media screen and (max-width: 1200px) {
@@ -25,7 +18,7 @@
   #profile,
   .section-container {
     display: block;
-    margin-bottom: 40vh;
+    margin-bottom: 15vh;
   }
   .arrow {
     display: none;
@@ -61,7 +54,10 @@
   }
   #profile {
     height: 83vh;
-    margin-bottom: 40vh;
+    margin-bottom: 15vh;
+  }
+  h1.title {
+    text-align: center;
   }
 
   article {
@@ -98,7 +94,6 @@
     gap: 0.5rem;
     text-align: center;
   }
-
   .section__text__p2 {
     font-size: 1.25rem;
   }

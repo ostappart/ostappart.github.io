@@ -8,7 +8,6 @@
 }
 
 body {
-  font-family: "Poppins", sans-serif;
 }
 
 html {
@@ -350,8 +349,8 @@ section {
 .experience-details-container {
   display: flex;
   justify-content: center;
-  flex-direction: column;
-  
+  flex-direction: row;
+  align-content: flex-end;
 }
 
 
@@ -383,8 +382,6 @@ article .icon {
 #projects {
   position: relative;
 }
-
-
 
 .color-container {
   border-color: rgb(163, 163, 163);
